@@ -111,7 +111,9 @@ function Header() {
                <div className="flex mx-4 text-white text-lg space-x-3 md:text-xl md:space-x-4 items-center">
                   {Object.keys(auth).length === 0 ? (
                      <Link href="/login">
-                        <div className="text-yellow-400">Login</div>
+                        <div className="text-yellow-400 cursor-pointer">
+                           Login
+                        </div>
                      </Link>
                   ) : (
                      loggedRouter()
