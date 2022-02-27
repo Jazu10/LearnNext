@@ -26,14 +26,14 @@ function Home(props) {
       <>
          <div className="bg-gray-100 h-50">
             <Head className="bg-green-500">
-               <title>e-Learn</title>
+               <title>Learn Next</title>
             </Head>
             <main className="mx-auto">
                <Banner />
                {subjects.length === 0 ? (
                   <h1 className="text-red-500">No subject</h1>
                ) : (
-                     <SubjectItem subjects={subjects} auth={auth}/>
+                  <SubjectItem subjects={subjects} auth={auth} />
                )}
             </main>
          </div>
